@@ -179,7 +179,7 @@ function startGame() {
 }
 
 function restartGame() {
-    scoreSpan.innerHTML = +score + ". GAME OVER";
+    scoreSpan.innerHTML = +0;
     clearInterval(fruitGenerator);
     clearInterval(moving);
     body = [3, 2, 1];
